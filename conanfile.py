@@ -6,7 +6,7 @@ import shutil
 class FlatBuffersConan(ConanFile):
     name = "FlatBuffers"
     version = "1.4.0"
-    url = "https://github.com/google/flatbuffers.git"
+    url = "https://github.com/Narquadah/conan-flatbuffers.git"
     license = "https://github.com/google/flatbuffers/blob/master/LICENSE.txt"
     settings = "os", "compiler", "build_type", "arch"
     exports = "CMakeLists.txt"
